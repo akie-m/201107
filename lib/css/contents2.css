@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+ contents2.css
+ created : 2011.07.07
+ last modified : 2011.07.07
+-----------------------------------------------------------------
+*/
+
+
+/* ▼07.07 */
+
+.outerBox {
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 150px;
+	margin: 0 auto 100px auto;
+	background: #333333;
+	border: 2px solid #333333;
+	border-top: 0;
+	/*z-index: 10;*/
+}
+.outerBox ul {
+	position: absolute;
+	left: 0;
+	width: 600px;
+	height: 250px;
+	/*z-index: 5;*/
+}
+.outerBox ul#list01 {
+	top: -200px;
+}
+.outerBox ul#list02 {
+	top: -450px;
+}
+.outerBox ul li {
+	overflow: hidden;
+	width: 590px;
+	height: 40px;
+	padding: 5px;
+	background: #f0f0f0;
+	text-align: left;
+	/*z-index: 1;*/
+}
+.outerBox ul li:nth-child(2n) {
+	background: #d0d0d0;
+}
+
+.outerBox ul li em {
+	margin: 0 1em 0 0;
+	color: #dd0000;
+	font-size: 115%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* gawa */
+h2.ttl {
+	width: 288px;
+	margin: 0 auto;
+	padding: 10px 8px;
+	background: #10212B;
+	color: #EAE4CC;
+	text-align: left;
+}
+.gawa {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto 30px auto;
+	border: 2px solid #10212B;
+	background: #10212B;
+	text-align: left;
+}
+.gawa ul {
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+	background: #D4C897;
+	color: #00031C;
+}
+.gawa ul li {
+	width: 280px;
+	margin: 0 8px;
+	padding: 10px 2px 9px 2px;
+	border-top: 1px solid #325054;
+}
+/*
+.gawa ul li:last-child {
+	border-bottom: 1px solid #D4C897;
+}
+*/
+
+
+/* 背景画像切り替え */
+.bgBoxOuter {overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bgBox {
+	position: absolute;
+	width: 100%;
+	height: 720px;
+	/*margin: 0 auto;*/
+}
+.boxA {
+	background: url(../img/bg01.jpg) no-repeat 30% 50%;
+	top: 0;
+	left: 0;
+}
+.boxB {
+	background: url(../img/bg02.jpg) no-repeat left top;
+	top: 0;
+	left: 0;
+}
+.boxC {
+	background: url(../img/bg03.jpg) no-repeat left top;
+	top: 0;
+	left: 0;
+}
+
+
+.bgImg {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/*display: none;*/
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img_a {
+	margin-top: -100px;
+	margin-left: -25%;
+}
+.img_b {
+	margin-top: -200px;
+}
+.img_c {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

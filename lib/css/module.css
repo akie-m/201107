@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+ module.css
+ created : 
+ last modified : 
+ comment : 
+-----------------------------------------------------------------
+*/
+
+/*
+==============================================================
+ ベーシック
+==============================================================
+*/
+
+/*--------------------------------------------------------
+ #area_content - 各要素設定
+--------------------------------------------------------*/
+
+/* mod_p */
+p.mod_p {
+	margin: 0 0 1em 0;
+	line-height: 1.5;
+}
+
+/* mod_img */
+img.mod_img {
+	margin: 3px 0 5px 0;
+	padding: 2px;
+	border: 1px solid #cccccc; 
+}
+
+/* mod_ul */
+ul.mod_ul {
+	margin: 0 0 15px 0;
+}
+
+ul.mod_ul li {
+	list-style: disc outside;
+	margin: 0 0 4px 25px;
+	line-height: 1.4;
+}
+
+/* mod_ol */
+ol.mod_ol {
+	margin: 0 0 15px 0;
+}
+
+ol.mod_ol li {
+	list-style: decimal outside;
+	margin: 0 0 4px 25px;
+	line-height: 1.4;
+}
+
+
+/*--------------------------------------------------------
+ テーブル
+--------------------------------------------------------*/
+
+/* mod_table01 */
+table.mod_table01 {
+	width: 100%;
+	margin: 0 0 15px 0;
+	border: 1px solid #c7c7c7;
+}
+
+table.mod_table01 thead th {
+	padding: 5px 8px;
+	border: 1px solid #c7c7c7;
+	background: #dddddd;
+	font-weight: normal;
+	text-align: left;
+}
+
+table.mod_table01 tbody th {
+	padding: 5px 8px;
+	border: 1px solid #c7c7c7;
+	background: #f0f0f0;
+	font-weight: normal;
+	text-align: left;
+}
+
+table.mod_table01 tbody td {
+	padding: 5px 8px;
+	border: 1px solid #c7c7c7;
+}
+
+
+
+/*
+==============================================================
+ piece
+==============================================================
+*/
+
+
+/* .txt_note */
+
+.txt_note {	color: #ee0000 !important;}
+
+ 
+/*
+ * フロート
+ *
+ */
+.floatLeft {	float: left !important;}
+.floatRight {	float: right !important;}
+
+
+/*
+ * 配置
+ *
+ */
+.layoutLeft {	text-align: left !important;}
+.layoutRight {	text-align: right !important;}
+.layoutCenter {	text-align: center !important;}
+
+.layoutTop {	vertical-align: top !important;}
+.layoutMiddle {	vertical-align: middle !important;}
+.layoutBottom {	vertical-align: bottom !important;}
+
+
+/*
+ * 余白
+ *
+ */
+.mb0 {	margin-bottom: 0 !important;}
+.ml10 {	margin-left: 10px !important;}
+.mr10 {	margin-right: 10px !important;}
+
+.pad_b05 {	padding-bottom: 5px !important;}
+.pad5_0 {	padding: 5px 0 !important;}
+
+
+
+
+
+/*
+==============================================================
+ レイアウト
+==============================================================
+*/
+
+
+/*--------------------------------------------------------
+ メディア(画像等)＋テキストのモジュール
+--------------------------------------------------------*/
+
+/**
+ * mod_itemBoxL
+ * メディア左・テキスト右
+ */
+ 
+.mod_itemBoxL {
+	width: 100%;
+	display: table;
+	margin: 0 0 15px 0;
+}
+
+.mod_itemBoxL .mod_itemBox-item {
+	width: 1%;
+	display: table-cell;
+	/width: auto; /* for IE6 and IE7 */
+	/float: left;
+	vertical-align: top;
+	padding: 4px 15px 15px 0;
+}
+
+.mod_itemBoxL .mod_itemBox-text {
+	display: table-cell;
+	vertical-align: top;
+	/zoom: 1; /* for IE6 and IE7 */
+}
+
+
+/**
+ * mod_itemBoxR
+ * メディア右・テキスト左
+ */
+
+.mod_itemBoxR {
+	width: 100%;
+	display: table;
+	direction: rtl;
+	margin: 0 0 15px 0;
+}
+
+.mod_itemBoxR .mod_itemBox-item {
+	width: 1%;
+	display: table-cell;
+	/width: auto; /* for IE6 and IE7 */
+	/float: right;
+	vertical-align: top;
+	padding: 4px 0 15px 15px;
+}
+
+.mod_itemBoxR .mod_itemBox-text {
+	display: table-cell;
+	vertical-align: top;
+	direction: ltr;
+	/zoom: 1; /* for IE6 and IE7 */
+}
+
+
+
+
+
+

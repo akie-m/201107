@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+ contents2.css
+ created : 2011.07.08
+ last modified : 2011.07.08
+-----------------------------------------------------------------
+*/
+
+
+/* ▼07.08 */
+
+#sample {
+	width: 300px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+}
+#sample h1 {
+	margin: 0 0 10px 0;
+	font-size: 150%;
+}
+.btn {
+	margin: 10px auto;
+}
+.btn a {
+	display: block;
+	margin: 10px auto;
+	width: 150px;
+	height: 50px;
+	border: 1px solid #535353;
+	border-radius: 6px;
+	background: #f0f0f0;
+	line-height: 50px;
+	text-align: center;
+}
+.btn a:hover {
+	background:#fff;
+}
+
+.overBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	padding: 10px;
+	background: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

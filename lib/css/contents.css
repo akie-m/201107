@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+ contents.css
+ created : 2011.07.04
+ last modified : 2011.07.07
+-----------------------------------------------------------------
+*/
+
+/* ▼0704 */
+ul.tab {
+	width: 500px;
+	margin: 20px auto 0 auto;
+	zoom: 1;
+}
+ul.tab:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+ul.tab li {
+	float: left;
+	width: 32.3%;
+	margin-right: 1%;
+	padding: 0.5em 0;
+	background: #f0f0f0;
+	line-height: 1;
+}
+ul.tab li:hover {
+	cursor: pointer;
+	background: #dfdfdf;
+}
+div.tabContent {
+	width: 500px;
+	height: 200px;
+	margin: 0 auto 20px auto;
+	background: #fafafa;
+}
+div.tabContent h2 {
+	padding-top: 80px;
+	font-size: 200%;
+	text-align: center;
+}
+
+#A {
+	display: block;
+	background: #ffcccc;
+}
+li#tabA {
+	background: #ffcccc;
+}
+#B {
+	display: none;
+	background: #ffffcc;
+}
+#C {
+	display: none;
+	background: #ccccff;
+}
+
+/* ▼0705 */
+.switch01 {
+	width: 100px;
+	margin: 2em auto;
+	border: 1px solid #545454;
+	background: #f0f0f0;
+}
+.switch01:hover {
+	background: #dadada;
+	cursor: pointer;
+}
+
+ul.picList {
+	position: relative;
+	width: 720px;
+	height: 540px;
+	margin: 0 auto;
+}
+ul.picList li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* ▼0706 */
+#twitter {
+	width: 600px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 4px dashed #9FCCCA;
+	background: #FFF3E0;
+	text-align: left;
+}
+#twitter ul {
+	width: 600px;
+	min-height: 6em;
+}
+#twitter ul li {
+	width: 584px;
+	min-height: 4em;
+	display: none;
+	position: absolute;
+	padding: 4px 8px;
+	/*border-bottom: 2px solid #CCC49F;*/
+}
+/*
+#twitter ul li:last-child {
+	border-bottom: 0;
+}
+*/
+/*
+#twitter ul li:last-child {
+	display: block;
+}
+*/
+
+#twitter02 {
+	overflow: hidden;
+	width: 600px;
+	height: 352px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 4px dashed #9FCCCA;
+	background: #FFF3E0;
+	text-align: left;
+}
+#twitter02 ul {
+	height: 352px;
+	min-height: 6em;
+}
+#twitter02 ul li {
+	min-height: 70px;
+	padding: 8px;
+	border-bottom: 2px solid #CCC49F;
+}
+
+
+/* ループ */
+.outerBox {
+	position: relative;
+	overflow: hidden;
+	width: 100px;
+	height: 150px;
+	margin: 0 auto;
+	background: #333333;
+	border: 2px solid #333333;
+	border-top: 0;
+	/*z-index: 10;*/
+}
+.outerBox ul {
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 250px;
+	/*z-index: 5;*/
+}
+.outerBox ul#list01 {
+	top: -200px;
+}
+.outerBox ul#list02 {
+	top: -450px;
+}
+.outerBox ul li {
+	height: 50px;
+	background: #f0f0f0;
+	font-size: 150%;
+	line-height: 50px;
+	/*z-index: 1;*/
+}
+.outerBox ul li:nth-child(2n) {
+	background: #d0d0d0;
+}
+
+
+

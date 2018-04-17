@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------
+ common.css
+ created : 2011.07.04
+ last modified : 2011.07.04
+-----------------------------------------------------------------
+*/
+
+html {
+	overflow-y: scroll;
+	height: 100%;
+	font-size: 86%;
+}
+body {
+	height: 100%;
+	background: #fff;
+	color: #535353;
+	line-height: 1.5;
+	text-align: center;
+	font-family:
+		"ＭＳ Ｐゴシック", 
+		"MS PGothic",
+		"メイリオ", 
+		"Meiryo", 
+		Sans-Serif, 
+		"ヒラギノ角ゴ Pro W3", 
+		"Hiragino Kaku Gothic Pro",
+		"HiraKakuPro-W3",
+		Osaka;
+	/*font-family:
+		"ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro",
+		"HiraKakuPro-W3",
+		"メイリオ", 
+		"Meiryo",
+		Osaka,
+		"ＭＳ Ｐゴシック",
+		"MS PGothic",
+		Sans-Serif;*/
+}
+* html body {
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+*:first-child + html body {
+	font-family: "メイリオ","Meiryo",verdana;
+}
+
+/* link color */
+a:link, a:visited {
+	color: #535353;
+	text-decoration: underline;
+}
+a:hover {
+	color: #d4d4d4;
+	text-decoration: none;
+}
+
+/* clear */
+.clear {
+	clear: both;
+}
+/* clearfix */
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear: both;
+	visibility:hidden;
+	font-size:0;
+	line-height:0;
+}
+
+/*--------------------------------------------
+ container
+---------------------------------------------*/
+#container {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	text-align: left;
+}
+
+
+/*--------------------------------------------
+ header
+---------------------------------------------*/
+#header {
+	width: ;
+	height: ;
+	background: url() no-repeat left top;
+}
+/* h1 */
+#header h1 {
+}
+
+/*--------------------------------------------
+ globalNav
+---------------------------------------------*/
+ul#globalNav {
+	width: ;
+	margin: ;
+	zoom: 1;
+}
+ul#globalNav:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+ul#globalNav li {
+	width: ;
+	height: ;
+	/*font-size: 0;
+	line-height: 1;*/
+}
+
+
+/*--------------------------------------------
+ content
+---------------------------------------------*/
+#content {
+	width: ;
+	padding: ;
+	line-height: 1.5;
+}
+
+/*--------------------------------------------
+ pagetop
+---------------------------------------------*/
+.pagetop {
+	clear: both;
+	padding: 10px 0;
+	font-size: 90%;
+	text-align: right;
+}
+
+/*--------------------------------------------
+ footer
+---------------------------------------------*/
+#footer {
+	width: ;
+	height: ;
+	background: url() no-repeat left top;
+	font-size: ;
+	text-align: center;
+}
+
+/* .copyright
+-------------------------------------------*/
+#footer .copyright {
+}
+
